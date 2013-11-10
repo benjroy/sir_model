@@ -1,0 +1,143 @@
+.wrapper{
+	
+}
+
+.boxModelContainer{
+	position:fixed;
+	width: 58%;
+	height: 68%;
+	top:10px;
+	left:10px;
+	border-width: 1px;
+	border-style:solid;
+	border-color:#000000;
+}
+
+.timelineContainer{
+	position:fixed;
+	width: 58%;
+	height:28%;
+	bottom:10px;
+	left:10px;
+	border-width: 1px;
+	border-style:solid;
+	border-color:#000000;
+}
+
+.timeline{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+
+.log{
+	position:fixed;
+	width: 0%;
+	height:0%;
+	bottom:10px;
+	left:10px;
+	border-width: 1px;
+	border-style:solid;
+	border-color:#000000;
+}
+
+.peopleContainer{
+	position:fixed;
+	width:40%;
+	right:10px;
+	bottom:10px;
+	top:10px;
+	border-width: 1px;
+	border-style:solid;
+	border-color:#000000;
+}
+
+.addPersonButton{
+	position: fixed;
+	border-radius: 10%;
+	background-color:#A9E2F3;
+	height:25px;
+	width:100px;
+	text-align:center;
+	bottom:15px;
+	right:15px;
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.addIButton{
+	position: fixed;
+	border-radius: 10%;
+	background-color:#A9E2F3;
+	height:25px;
+	width:100px;
+	text-align:center;
+	bottom:15px;
+	right:130px;
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.person{
+	position: absolute;
+	height:30px;
+	width:30px;
+	top:50%;
+	left:50%;
+	border-radius: 100%;
+	background-color: black;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.box{
+	text-align:center;
+	color:#FFFFFF;
+	position:absolute;
+	bottom:20%;
+	width:20%;
+}
+
+.s{
+	left:10%;
+	background-color:#000088;	
+	height:0%;
+}
+
+.i{
+	left:40%;
+	background-color:#990000;		
+	height:0%;
+}
+
+.r{
+	right:10%;
+	background-color:#005500;	
+	height:0%;
+}
+
+.canvasTestContainer{
+	height:100%;
+	width:100%;
+}

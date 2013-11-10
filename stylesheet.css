@@ -1,0 +1,58 @@
+h1{
+	font-size:40px;
+}
+
+h2{
+	font-size:24px;
+}
+
+div{
+	margin:2px;
+}
+
+body{
+	background-color:#EFF8FB;
+}
+.header{
+	background-color:#A9E2F3;
+	border: 1px solid #58ACFA;
+	text-align:center;
+	width:100%
+}
+
+.container{
+	position:relative;
+	width:1500px;
+	height:10000px;
+}
+
+.testing{
+	position:fixed;
+	left: 300px;
+	top: 200px;
+	background-image:url("res/img/sunflower.jpg");
+	height:0px;
+	width:700px;
+	background-position:0px 0px;
+	background-repeat:no-repeat;
+	z-index: -10;
+}
+
+.testing2{
+	position:absolute;
+	left: 500px;
+	top: 1500px;
+	background-image:url("res/img/airplane_vortex.jpg");
+	height:500px;
+	width:500px;
+	background-position:0px 0px;
+	background-repeat:no-repeat;
+	z-index: -10;
+}
+
+.bodyText{
+	position:absolute:
+	left: 10px;
+	top: 10px;
+}
+
